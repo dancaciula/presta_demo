@@ -1,0 +1,21 @@
+# private files
+#the following files contain your database credentials and other personal data.
+
+config/settings.*.php
+/admin079wbcoso/autoupgrade/
+/cache/
+/config/xml/*.xml
+/log/
+*sitemap.xml
+/themes/*/cache/
+/modules/*/config*.xml
+
+# site content
+# the following folders contain product images, virtual products, csv's etc.
+
+admin079wbcoso/backups/
+admin079wbcoso/export/
+admin079wbcoso/import/
+download/
+img/
+upload/
