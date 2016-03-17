@@ -1,0 +1,83 @@
+/* block top links */
+#top_links {
+  padding-bottom: 10px; }
+  #top_links .current {
+    font: 300 38px/1em "Rubik", sans-serif;
+    color: #37474f;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer; }
+    #top_links .current:hover:after {
+      background: #e91e63;
+      color: white; }
+    #top_links .current:hover, #top_links .current.active {
+      color: #ff80ab; }
+    #top_links .current:after {
+      font-family: "FontAwesome";
+      content: "\f107";
+      display: inline-block;
+      font-size: 16px;
+      line-height: 20px;
+      color: #e91e63;
+      margin-left: 20px;
+      font-weight: normal;
+      height: 20px;
+      width: 20px;
+      text-align: center;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      background: white; }
+    #top_links .current.active:after {
+      content: "\f106"; }
+
+ul#header_links {
+  display: none;
+  width: 385px;
+  padding: 15px 100px 10px 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 2;
+  background: white;
+  color: #78909c;
+  margin: 0; }
+  ul#header_links li {
+    color: #37474f;
+    line-height: 35px;
+    font-size: 14px; }
+    ul#header_links li a,
+    ul#header_links li > span {
+      padding: 0;
+      display: block;
+      color: #37474f;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      text-transform: capitalize; }
+  ul#header_links li.active a, ul#header_links li a:hover, ul#header_links li a:focus {
+    color: #ff80ab; }
+
+/*block permanent links right and left columns*/
+#permanent_links div a {
+  display: block;
+  padding: 7px 11px 5px 22px;
+  color: #333;
+  background: url(img/arrow_right_2.png) no-repeat 10px 10px; }
+
+/* block footer links */
+ul#footer_links {
+  clear: both;
+  text-align: center;
+  padding-bottom: 6px; }
+
+ul#footer_links li {
+  display: inline;
+  padding: 0 10px; }

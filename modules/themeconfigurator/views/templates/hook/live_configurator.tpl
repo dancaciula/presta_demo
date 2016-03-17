@@ -24,7 +24,7 @@
 *}
 
 <div id="gear-right">
-	<i class="icon-cogs icon-2x icon-light"></i>
+	<i class="fa fa-cogs icon-2x icon-light"></i>
 </div>
 <form action="" method="post">
 	<div id="tool_customization">

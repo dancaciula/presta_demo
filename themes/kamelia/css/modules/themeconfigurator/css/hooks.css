@@ -1,0 +1,115 @@
+/* Top hook CSS */
+#htmlcontent_top {
+  margin-bottom: 30px;
+  margin-top: -7px;
+  position: relative; }
+  @media (max-width: 991px) {
+    #htmlcontent_top {
+      margin-top: 20px;
+      transform-style: inherit !important; } }
+  #htmlcontent_top ul {
+    margin: 0;
+    text-align: center; }
+    #htmlcontent_top ul li .item-html {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      text-align: center;
+      width: 100%;
+      -moz-transform: translateY(-85%);
+      -ms-transform: translateY(-85%);
+      -o-transform: translateY(-85%);
+      -webkit-transform: translateY(-85%);
+      transform: translateY(-85%);
+      z-index: 10; }
+      @media (max-width: 991px) {
+        #htmlcontent_top ul li .item-html {
+          z-index: 1; } }
+    #htmlcontent_top ul li h2 {
+      font: 300 87px/1em "Rubik", sans-serif;
+      color: #e91e63;
+      margin: 0 0 4px;
+      letter-spacing: 19px; }
+    #htmlcontent_top ul li h3 {
+      font: italic 41px/1em "Lora", serif;
+      color: #37474f;
+      margin: 0 0 32px; }
+    @media (max-width: 1199px) {
+      #htmlcontent_top ul li h2 {
+        font-size: 60px; }
+      #htmlcontent_top ul li h3 {
+        font-size: 30px; } }
+    @media (max-width: 991px) {
+      #htmlcontent_top ul li h2 {
+        font-size: 40px;
+        letter-spacing: 4px; }
+      #htmlcontent_top ul li h3 {
+        font-size: 30px; }
+      #htmlcontent_top ul li img {
+        display: none; }
+      #htmlcontent_top ul li .item-html {
+        position: relative;
+        top: 0;
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        background: #fff;
+        padding: 20px; } }
+    #htmlcontent_top ul li .btn.btn-default {
+      font-size: 15px;
+      line-height: 18px;
+      font-weight: 500;
+      border-width: 2px;
+      -moz-border-radius: 30px;
+      -webkit-border-radius: 30px;
+      border-radius: 30px;
+      -moz-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      padding: 17px 35px; }
+    #htmlcontent_top ul li.htmlcontent-item-1 {
+      display: inline-block; }
+      @media (max-width: 1199px) {
+        #htmlcontent_top ul li.htmlcontent-item-1 {
+          display: block; } }
+      #htmlcontent_top ul li.htmlcontent-item-1 img {
+        max-width: 100%;
+        height: auto; }
+    #htmlcontent_top ul li img.layer {
+      position: absolute !important; }
+      @media (max-width: 1199px) {
+        #htmlcontent_top ul li img.layer {
+          display: none; } }
+    #htmlcontent_top ul li img[title="element1"] {
+      top: 50%;
+      left: auto;
+      right: 2%;
+      margin-top: -1%; }
+    #htmlcontent_top ul li img[title="element2"] {
+      bottom: 0;
+      left: auto;
+      right: 11%; }
+    #htmlcontent_top ul li img[title="element3"] {
+      top: 2% !important;
+      left: 7% !important; }
+    #htmlcontent_top ul li img[title="element4"] {
+      top: 37%;
+      left: 11%; }
+    #htmlcontent_top ul li img[title="element5"] {
+      top: 50%;
+      left: 0;
+      margin-left: -260px; }
+    #htmlcontent_top ul li img[title="element6"] {
+      top: 0;
+      right: 30%;
+      margin-top: -260px; }
+    #htmlcontent_top ul li img {
+      /*			max-width: 100%;
+      			height: auto;	*/ }
+
+/* Left hook CSS */
+/* Right hook CSS */
+/* Footer hook CSS */

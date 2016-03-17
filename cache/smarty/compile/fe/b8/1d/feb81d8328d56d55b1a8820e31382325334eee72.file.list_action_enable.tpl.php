@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2016-03-14 18:42:05
+<?php /* Smarty version Smarty-3.1.19, created on 2016-03-17 14:07:52
          compiled from "/var/www/html/presta/admin079wbcoso/themes/default/template/helpers/list/list_action_enable.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10887338456e6e9ddab78e2-33951234%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:126827879856ea9e1842ac94-08181808%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10887338456e6e9ddab78e2-33951234',
+  'nocache_hash' => '126827879856ea9e1842ac94-08181808',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_56e6e9ddacd7c5_06838200',
+  'unifunc' => 'content_56ea9e1843ff23_26157352',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_56e6e9ddacd7c5_06838200')) {function content_56e6e9ddacd7c5_06838200($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_56ea9e1843ff23_26157352')) {function content_56ea9e1843ff23_26157352($_smarty_tpl) {?>
 <a class="list-action-enable<?php if (isset($_smarty_tpl->tpl_vars['ajax']->value)&&$_smarty_tpl->tpl_vars['ajax']->value) {?> ajax_table_link<?php }?><?php if ($_smarty_tpl->tpl_vars['enabled']->value) {?> action-enabled<?php } else { ?> action-disabled<?php }?>" href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['url_enable']->value, ENT_QUOTES, 'UTF-8', true);?>
 "<?php if (isset($_smarty_tpl->tpl_vars['confirm']->value)) {?> onclick="return confirm('<?php echo $_smarty_tpl->tpl_vars['confirm']->value;?>
 ');"<?php }?> title="<?php if ($_smarty_tpl->tpl_vars['enabled']->value) {?><?php echo smartyTranslate(array('s'=>'Enabled'),$_smarty_tpl);?>

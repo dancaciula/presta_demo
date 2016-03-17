@@ -1,0 +1,71 @@
+#currencies-block-top {
+  padding-bottom: 10px;
+  position: relative; }
+  #currencies-block-top span.firstWord {
+    display: none; }
+  #currencies-block-top div.current {
+    font: 300 38px/1em "Rubik", sans-serif;
+    color: #37474f;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer; }
+    #currencies-block-top div.current:hover:after {
+      background: #e91e63;
+      color: white; }
+    #currencies-block-top div.current strong {
+      color: #78909c;
+      font-weight: normal; }
+    #currencies-block-top div.current:hover, #currencies-block-top div.current.active {
+      color: #ff80ab; }
+    #currencies-block-top div.current:after {
+      font-family: "FontAwesome";
+      content: "\f107";
+      display: inline-block;
+      font-size: 16px;
+      line-height: 20px;
+      color: #e91e63;
+      margin-left: 20px;
+      font-weight: normal;
+      height: 20px;
+      width: 20px;
+      text-align: center;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      background: white; }
+    #currencies-block-top div.current.active:after {
+      content: "\f106"; }
+  #currencies-block-top ul {
+    display: none;
+    width: 385px;
+    padding: 15px 100px 10px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 2;
+    background: white;
+    color: #78909c;
+    margin: 0;
+    margin-bottom: 0; }
+    #currencies-block-top ul li {
+      color: #37474f;
+      line-height: 35px;
+      font-size: 14px; }
+      #currencies-block-top ul li a,
+      #currencies-block-top ul li > span {
+        padding: 0;
+        display: block;
+        color: #37474f;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        text-transform: capitalize; }
+    #currencies-block-top ul li.selected > span, #currencies-block-top ul li.selected a, #currencies-block-top ul li a:hover, #currencies-block-top ul li a:focus {
+      color: #ff80ab; }
